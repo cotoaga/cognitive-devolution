@@ -1,11 +1,13 @@
 \documentclass[12pt,a4paper]{article}
 \usepackage[utf8]{inputenc}
-\usepackage[T1]{fontenc}
-\usepackage{times}
 \usepackage[margin=1in]{geometry}
 \usepackage{setspace}
 \doublespacing
 \usepackage[authoryear,round]{natbib}
+\usepackage{graphicx}
+\usepackage{longtable}
+\usepackage{booktabs}
+\usepackage{array}
 \usepackage{hyperref}
 \hypersetup{
     colorlinks=true,
@@ -14,6 +16,10 @@
     urlcolor=cyan,
     citecolor=black
 }
+
+% Pandoc compatibility
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
 
 % Title configuration
 \title{Cognitive Devolution: From Sphere to Vector\\
