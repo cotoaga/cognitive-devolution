@@ -1,48 +1,57 @@
-# Wordpress - ignore core, configuration, examples, uploads and logs.
-# https://github.com/github/gitignore/blob/main/WordPress.gitignore
+# macOS System Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+.AppleDouble
+.LSOverride
 
-# Core
-#
-# Note: if you want to stage/commit WP core files
-# you can delete this whole section/until Configuration.
-/wp-admin/
-/wp-content/index.php
-/wp-content/languages
-/wp-content/plugins/index.php
-/wp-content/themes/index.php
-/wp-includes/
-/index.php
-/license.txt
-/readme.html
-/wp-*.php
-/xmlrpc.php
+# Claude Code Instructions - pure log...
+/INSTRUCTIONS
 
-# Configuration
-wp-config.php
+# Icon must end with two \r
+Icon
 
-# Example themes
-/wp-content/themes/twenty*/
+# Thumbnails
+._*
 
-# Example plugin
-/wp-content/plugins/hello.php
+# Files that might appear in the root of a volume
+.DocumentRevisions-V100
+.fseventsd
+.TemporaryItems
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
 
-# Uploads
-/wp-content/uploads/
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
 
-# Log files
-*.log
+# Xcode
+*.xcuserstate
+*.xcworkspace/xcuserdata/
 
-# htaccess
-/.htaccess
+# VS Code
+.vscode/
+*.code-workspace
 
-# All plugins
-#
-# Note: If you wish to whitelist plugins,
-# uncomment the next line
-#/wp-content/plugins
+# JetBrains
+.idea/
+*.iml
 
-# All themes
-#
-# Note: If you wish to whitelist themes,
-# uncomment the next line
-#/wp-content/themes
+# Node (falls du das brauchst)
+node_modules/
+npm-debug.log*
+
+# Python (falls relevant)
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+venv/
+.env
