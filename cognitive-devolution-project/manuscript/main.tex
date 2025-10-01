@@ -1,0 +1,51 @@
+\documentclass[12pt,a4paper]{article}
+
+% Essential packages
+\usepackage[utf8]{inputenc}
+\usepackage[margin=1in]{geometry}
+\usepackage{setspace}
+\onehalfspacing
+
+% Bibliography
+\usepackage[authoryear,round]{natbib}
+\bibliographystyle{apalike}
+
+% Formatting
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=black,
+    citecolor=blue,
+    urlcolor=blue,
+}
+
+% Tables and figures
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{longtable}
+\usepackage{amsmath}
+
+\title{\Large\textbf{Cognitive Devolution: The Thermodynamic Collapse of Human Knowledge Systems}}
+\author{[Author Name]\\
+\small [Affiliation]\\
+\small \href{mailto:email@example.com}{email@example.com}}
+\date{}
+
+\begin{document}
+\maketitle
+
+% Include all sections
+\input{sections/00-abstract}
+\input{sections/00-preface}
+\input{sections/01-introduction}
+\input{sections/02-literature}
+\input{sections/03-methodology}
+\input{sections/04-historical}
+\input{sections/05-contemporary}
+\input{sections/06-ai-mirror}
+\input{sections/07-reconstruction}
+\input{sections/08-implications}
+\input{sections/09-conclusion}
+
+\bibliography{../bibliography/references}
+\end{document}
