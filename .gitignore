@@ -55,3 +55,26 @@ __pycache__/
 .Python
 venv/
 .env
+
+# Output files
+03-output/*
+!03-output/.gitkeep
+
+# Obsidian
+.obsidian/workspace
+.obsidian/workspace.json
+.obsidian/cache
+.obsidian/plugins
+
+# Temporary files
+*.tmp
+*.swp
+*~
+
+# LaTeX auxiliary files
+*.aux
+*.log
+*.out
+*.toc
+*.bbl
+*.blg

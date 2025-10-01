@@ -1,0 +1,10 @@
+{
+  "alwaysUpdateLinks": true,
+  "newFileLocation": "folder",
+  "newFileFolderPath": "07-working-notes",
+  "attachmentFolderPath": "02-figures",
+  "strictLineBreaks": false,
+  "showLineNumber": true,
+  "defaultViewMode": "source",
+  "livePreview": true
+}
