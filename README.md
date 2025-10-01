@@ -6,9 +6,14 @@
 - `02-figures/`: Diagrams and images
 - `03-output/`: Generated PDFs and build artifacts
 - `04-pandoc/`: LaTeX templates and styling
-- `05-archive/`: Core content from previous iterations
+- `05-archive/`: Core content from previous iterations (VENOM gems)
 - `06-obsidian/`: Obsidian vault configuration
 - `07-working-notes/`: Active development notes
+- `instructions/`: Setup and execution instructions for phases
+- `material/`: Source materials, handovers, visuals, and reference files
+  - `handovers/`: Archaeological documentation and context transfers
+  - `visuals/`: Figures and diagrams (F1a-f.png)
+- `responses/`: Execution logs and completion reports
 
 ## Build Instructions
 ```bash
