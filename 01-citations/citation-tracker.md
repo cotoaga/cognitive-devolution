@@ -59,25 +59,43 @@
 - [ ] Snowden - Cynefin
 - [ ] AI architectural papers
 
-### 2. Archaeological Evidence (25-30 sources)
-- [ ] Aristotle, Plato primary sources
-- [ ] "18 scholars on nous" paper
-- [ ] Greek philosophy surveys
-- [ ] Varela et al - embodied cognition
-- [ ] Ackoff - DIKW original
-- [ ] Tuomi - DIKW critique
-- [ ] Nonaka & Takeuchi - SECI
-- [ ] Medieval guild scholarship
-- [ ] Thompson - English Working Class
-- [ ] Sennett - The Craftsman
-- [ ] Newton, Smith, Taylor sources
-- [ ] Educational history 20th century
-- [ ] Freire, Giroux - pedagogy
-- [ ] Bologna Process documents
-- [ ] Micro-credential research
-- [ ] Attention economy literature
+### 2. Literature Review (10-15 sources)
+**Status**: Section complete, citations to be verified
+- [ ] Tetlock - expert judgment
+- [ ] Kahneman & Klein - expert intuition
+- [ ] Dreyfus & Dreyfus - expertise model
+- [ ] Polanyi - tacit knowledge
+- [ ] Collins - tacit knowledge types
+- [ ] Gigerenzer - ecological rationality
+- [ ] Klein - recognition-primed decisions
+- [ ] Cognitive capitalism literature
+- [ ] Expertise development studies
 
-### 3. Architecture of Extraction (15-20 sources)
+### 3. Methodological and Theoretical Framework (8-12 sources)
+**Status**: Section in progress, PRIORITY CITATIONS
+**Focus**: Thermodynamics, complexity science, network topology
+
+#### Must Have (P1)
+- [ ] Prigogine, I. & Stengers, I. (1984). *Order Out of Chaos* - Dissipative structures
+- [ ] Georgescu-Roegen, N. (1971). *The Entropy Law and the Economic Process* - Entropy economics
+- [ ] SchrÃ¶dinger, E. (1944). *What is Life?* - Living systems as negentropy
+- [ ] Landauer, R. (1961). Irreversibility and heat generation - Energy/information equivalence
+
+#### Should Have (P2)
+- [ ] Juarrero, A. (1999). *Dynamics in Action* - Complexity science
+- [ ] Kauffman, S. A. (1993). *The Origins of Order* - Self-organization
+- [ ] Network topology papers for sphere vs vector architecture
+- [ ] Complexity science methodology papers
+
+#### Context
+- Establishes thermodynamics as analytical lens (not metaphor)
+- Provides measurability framework
+- Justifies archaeological method
+- Validates pattern recognition approach
+
+### 4. [RESERVED - TBD]
+
+### 5. Historical Analysis (15-20 sources)
 - [ ] Educational tracking studies
 - [ ] Specialization research
 - [ ] Ericsson - deliberate practice
@@ -95,7 +113,7 @@
 
 ### 4. Thermodynamic Framework (12-15 sources)
 - [ ] Prigogine - Order Out of Chaos
-- [ ] Schrödinger - What is Life?
+- [ ] Schrï¿½dinger - What is Life?
 - [ ] Georgescu-Roegen - Entropy Law
 - [ ] Schneider & Kay - thermodynamics
 - [ ] Kauffman - Origins of Order
@@ -142,7 +160,7 @@
 
 ### Week 1: Thermodynamics Foundation
 - [ ] Order library access for Prigogine
-- [ ] Find Schrödinger What is Life?
+- [ ] Find Schrï¿½dinger What is Life?
 - [ ] Locate Georgescu-Roegen papers
 - [ ] Add Schneider & Kay article
 - [ ] Find Kauffman sources
