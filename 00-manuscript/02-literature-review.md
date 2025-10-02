@@ -1,326 +1,77 @@
-# 2. The Archaeological Evidence: From Cognitive Richness to Vector Poverty
+# 2. Literature Review: Fragmented Recognition and Systematic Blindness
 
-**Target: 3,000 words**
+## 2.1 The Peripheral Scouts
 
-## 2.1 The Cognitive Spectrum We Lost (900 words)
+A careful survey of contemporary scholarship reveals a curious phenomenon: researchers at the edges of multiple disciplines have independently begun recognizing the energetic dimensions of cognition, yet these insights remain unintegrated, failing to coalesce into a unified framework that could challenge the dominant paradigm of costless information processing.
 
-### Introduction to Greek Knowledge Diversity
-- Why start with ancient Greece?
-- Not cultural supremacy but documented diversity
-- Multiple schools, contested meanings, rich taxonomy
-- What we can learn from this complexity
+In management science, Bratianu (2020) claims to use "for the first time a thermodynamics approach" to understand knowledge dynamics, proposing knowledge entropy as an organizing principle for organizational cognition. That such a claim could be made in 2020-decades after information theory established entropy measures-reveals the profound isolation between knowledge management and physical sciences. Bratianu and Bejinaru (2020) extend this framework, arguing that knowledge manifests in three forms (rational, emotional, spiritual) that transform through "energy-like processes," yet they stop short of recognizing that these are not metaphorical but literal energy transformations.
 
-### The 18+ Greek Knowledge Types
+In neuroscience, researchers have begun quantifying the metabolic costs of cognition with increasing precision. Jamadar (2025) demonstrates that goal-directed cognition requires only 5% more energy than resting brain activity-a finding that paradoxically reveals both the brain's efficiency and the critical importance of that marginal energy investment. Wiehler et al. (2022) provide mechanistic evidence that cognitive control exertion leads to glutamate accumulation in the lateral prefrontal cortex, establishing a direct biochemical basis for mental fatigue. These findings suggest that "cognitive work" is not merely analogous to physical labor but operates through similar energetic constraints.
 
-#### **DISCLAIMER**: Scholarly Complexity
-- Different schools (Plato, Aristotle, Stoics, Epicureans)
-- Contested meanings across periods
-- Citation: Paper showing 18 scholars couldn't agree on Aristotle's nous
-- Why this complexity matters
+In physics and information theory, Stonier (1996) proposed treating information as a basic property of the universe alongside matter and energy, arguing for fundamental interconvertibility between information and energy. Yet this theoretical breakthrough remains largely unknown to knowledge management scholars, who continue treating information as an abstract, costless commodity.
 
-#### Core Knowledge Types (with energy requirements)
+## 2.2 The Mainstream Blindness
 
-1. **Sophia (Ã¿Æ¯±)** - Theoretical Wisdom
-   - Energy investment: 20+ years
-   - Characteristics: [to be detailed]
-   - Examples: [to be added]
+Despite these peripheral insights, the dominant discourse in knowledge management, organizational theory, and educational policy proceeds as if cognition were energetically neutral. The vast literature on the "knowledge economy" (Powell & Snellman, 2004), "learning organizations" (Senge, 1990), and "competency-based education" (Mulder et al., 2007) treats knowledge as an infinitely reproducible resource constrained only by access and transmission bandwidth.
 
-2. **Phronesis (ÆÁÌ½·Ã¹Â)** - Practical Wisdom
-   - Energy investment: Daily practice, lifetime
-   - Characteristics: [to be detailed]
-   - Examples: [to be added]
+Consider the influential SECI model (Socialization, Externalization, Combination, Internalization) of knowledge creation by Nonaka and Takeuchi (1995), cited over 30,000 times. While brilliantly mapping knowledge transformation modes, it contains no recognition that each transformation requires energy investment, that maintaining tacit knowledge demands continuous metabolic support, or that externalization represents an entropic process that degrades multidimensional understanding into linear documentation.
 
-3. **Techne (Ä­Ç½·)** - Craft Knowledge
-   - Energy investment: 10,000+ hours
-   - Characteristics: [to be detailed]
-   - Examples: [to be added]
+Similarly, the burgeoning literature on artificial intelligence and knowledge work-from Brynjolfsson and McAfee's (2014) "Second Machine Age" to Susskind's (2020) "Future of the Professions"-focuses on computational capability and pattern recognition while ignoring the energetic basis that distinguishes biological from silicon cognition. These works treat the replacement of human expertise as a matter of algorithmic sophistication rather than recognizing it as the logical endpoint of a century-long process of cognitive energy disinvestment.
 
-4. **Metis (¼ÆÄ¹Â)** - Cunning Intelligence
-   - Energy investment: Constant adaptation
-   - Characteristics: [to be detailed]
-   - Examples: [to be added]
+## 2.3 Cognitive Capitalism's Energy Blindness
 
-5. **Nous (½¿æÂ)** - Intuitive Understanding
-   - Energy investment: Until breakthrough
-   - Characteristics: [to be detailed]
-   - Examples: [to be added]
+The critical literature on "cognitive capitalism" (Moulier-Boutang, 2007; Vercellone, 2007) comes closest to recognizing the exploitation of mental resources yet still fails to ground this in thermodynamic reality. Moulier-Boutang distinguishes between "labor-power" (physical energy expenditure) and "invention-power" (cognitive functions) without recognizing that invention-power also requires literal energy investment-not metaphorical "mental energy" but actual glucose metabolism, ATP consumption, and entropic heat dissipation.
 
-6. **Episteme (À¹ÃÄ®¼·)** - Scientific Knowledge
-   - Energy investment: [to be specified]
-   - Characteristics: [to be detailed]
-   - Examples: [to be added]
+This blindness extends to the platform economy literature. Zuboff's (2019) "surveillance capitalism" brilliantly exposes behavioral data extraction but doesn't recognize that platforms are essentially entropy accelerators, harvesting the organized complexity of human cognition while investing nothing in its maintenance or development. Srnicek's (2017) "platform capitalism" identifies data as the new oil but misses that, unlike oil, cognitive resources require continuous energy investment to prevent degradation.
 
-7. **Doxa (´Ì¾±)** - Opinion/Belief
-   - Energy investment: [to be specified]
-   - Characteristics: [to be detailed]
-   - Examples: [to be added]
+## 2.4 The Expertise Literature Gap
 
-8. **Gnosis (³½öÃ¹Â)** - Mystical Knowledge
-   - Energy investment: [to be specified]
-   - Characteristics: [to be detailed]
-   - Examples: [to be added]
+The extensive literature on expertise development-from Ericsson's (2006) deliberate practice to Kahneman and Klein's (2009) conditions for expert intuition-meticulously documents the time requirements for skill acquisition (the famous "10,000 hours") but rarely acknowledges these as energy investment requirements. When researchers note that expertise requires "effort" or "cognitive load," they treat these as psychological rather than thermodynamic phenomena.
 
-[Continue through all 18+ types with similar structure]
+Even sophisticated critiques of expert systems, from Dreyfus (1979) to Collins (2010), focus on the irreducibility of tacit knowledge without recognizing that this irreducibility stems from its high-energy state. Tacit knowledge resists formalization not because it is mysteriously ineffable but because maintaining it requires continuous metabolic investment that cannot be captured in static representations.
 
-### Thermodynamic Interpretation
-- Each type represents different energy state
-- Different investment requirements
-- Different resistance to extraction
-- Portfolio of cognitive capacities
+## 2.5 The Integration Imperative
 
-### Citations Needed
-- [ ] Primary sources: Aristotle Nicomachean Ethics
-- [ ] Primary sources: Plato dialogues
-- [ ] "18 scholars can't agree on nous" paper
-- [ ] Greek philosophy surveys
-- [ ] Varela, Thompson, Rosch - embodied cognition
-- [ ] Contemporary interpretations
+What emerges from this review is not an absence of relevant insights but their tragic fragmentation. Neuroscientists measure metabolic costs without connecting to knowledge theory. Management scholars invoke entropy without thermodynamic grounding. Physicists theorize information-energy equivalence without application to human cognition. Critical theorists expose cognitive exploitation without energetic foundation.
+
+This fragmentation is not accidental but structural-a consequence of disciplinary boundaries that mirror the very vectorization this paper critiques. Just as education has collapsed multidimensional cognition into specialized competencies, academia has partitioned the study of knowledge into non-communicating silos, preventing recognition of the unified thermodynamic reality underlying all cognitive phenomena.
+
+The task before us is not to discover new facts but to synthesize existing insights into a framework that reveals what disciplinary fragmentation has hidden: the systematic transformation of high-energy spherical cognition into low-energy vectors suitable for algorithmic consumption, and the thermodynamic impossibility of maintaining cognitive sovereignty without corresponding energy investment.
 
 ---
 
-## 2.2 The DIKW Poverty (500 words)
+## References for Literature Review
 
-### Ackoff's Framework Introduction
-- Data ’ Information ’ Knowledge ’ Wisdom
-- Originally more nuanced than later interpretations
-- How it became reductionist
+Bratianu, C., & Bejinaru, R. (2020). Knowledge dynamics: A thermodynamics approach. *Kybernetes*, 49(1), 6-21.
 
-### The Collapse: 18+ Types ’ 4 Categories
-- What gets lost in compression
-- Flattening of energy distinctions
-- Loss of embodiment
-- Maximum entropy state of knowledge management
+Brynjolfsson, E., & McAfee, A. (2014). *The second machine age: Work, progress, and prosperity in a time of brilliant technologies*. W.W. Norton.
 
-### Knowledge Management's Thermodynamic Failure
-- Treating knowledge as transferable data
-- Ignoring energy investment requirements
-- Database fallacy
-- Why KM initiatives fail
+Collins, H. (2010). *Tacit and explicit knowledge*. University of Chicago Press.
 
-### Modern Interpretations and Critiques
-- DIKW pyramid proliferation
-- Critiques from Tuomi, Frické, others
-- The hierarchy debates
-- Missing: Energy investment dimension
+Dreyfus, H. L. (1979). *What computers can't do: The limits of artificial intelligence* (rev. ed.). MIT Press.
 
-### Citations Needed
-- [ ] Ackoff original papers
-- [ ] Tuomi critique of DIKW
-- [ ] Frické DIKW analysis
-- [ ] Knowledge management literature
-- [ ] Nonaka & Takeuchi SECI model
-- [ ] Polanyi tacit knowledge
+Ericsson, K. A. (2006). The influence of experience and deliberate practice on the development of superior expert performance. In K. A. Ericsson et al. (Eds.), *Cambridge handbook of expertise and expert performance* (pp. 683-703). Cambridge University Press.
 
----
+Jamadar, S. D. (2025). The metabolic costs of cognition. *Trends in Cognitive Sciences*, 29(1), 45-59.
 
-## 2.3 Historical Decay Timeline (1,600 words)
+Moulier-Boutang, Y. (2007). *Cognitive capitalism*. Polity Press.
 
-### Phase 1: Peak Cognitive Diversity (500 BCE - 500 CE) [250 words]
+Mulder, M., Weigel, T., & Collins, K. (2007). The concept of competence in the development of vocational education and training in selected EU member states. *Journal of Vocational Education & Training*, 59(1), 67-88.
 
-#### The Academy and Lyceum
-- Academy: 900 years of operation
-- Lyceum: Peripatetic method
-- Embodied learning practices
-- Cross-domain integration
+Nonaka, I., & Takeuchi, H. (1995). *The knowledge-creating company*. Oxford University Press.
 
-#### Multiple Knowledge Systems
-- Philosophical schools competing
-- Different epistemologies coexisting
-- Contested meanings as feature
-- Energy investment: 20+ years for mastery
+Powell, W. W., & Snellman, K. (2004). The knowledge economy. *Annual Review of Sociology*, 30, 199-220.
 
-#### Citations Needed
-- [ ] History of ancient universities
-- [ ] Greek education systems
-- [ ] Philosophical school studies
+Senge, P. M. (1990). *The fifth discipline: The art and practice of the learning organization*. Doubleday.
 
----
+Srnicek, N. (2017). *Platform capitalism*. Polity Press.
 
-### Phase 2: Medieval Synthesis (500-1500) [250 words]
+Stonier, T. (1996). Information as a basic property of the universe. *Biosystems*, 38(2-3), 135-140.
 
-#### Guild System
-- Master-apprentice energy transfer
-- Embodied knowledge preservation
-- Trade secrets as high-energy states
-- Community knowledge maintenance
+Susskind, R., & Susskind, D. (2020). *The future of the professions: How technology will transform the work of human experts*. Oxford University Press.
 
-#### Medieval Universities
-- Scholastic integration
-- Seven liberal arts
-- Disputatio as practice
-- Last traces of polymaths
+Vercellone, C. (2007). From formal subsumption to general intellect: Elements for a Marxist reading of the thesis of cognitive capitalism. *Historical Materialism*, 15(1), 13-36.
 
-#### Energy Investment
-- Apprenticeships: 7-10 years
-- University: 4-8 years
-- Combined: 10-15 years total
+Wiehler, A., et al. (2022). A neuro-metabolic account of why daylong cognitive work alters economic preferences. *Current Biology*, 32(16), 3564-3575.
 
-#### Citations Needed
-- [ ] Thompson - Making of the English Working Class
-- [ ] Sennett - The Craftsman
-- [ ] Medieval guild scholarship
-- [ ] University history
-
----
-
-### Phase 3: Industrial Fracture (1500-1900) [300 words]
-
-#### Newton: Mechanization of Thought
-- Mathematical reductionism
-- Clockwork universe
-- Knowledge as formula
-
-#### Adam Smith: Division of Intellectual Labor
-- Pin factory logic applied to cognition
-- Specialization acceleration
-- Loss of cross-domain capacity
-
-#### Frederick Taylor: Scientific Management
-- Time-motion studies
-- Human as optimizable machine
-- Knowledge decomposition
-
-#### Goethe as "Last Polymath"
-- Why this claim matters
-- What polymathy represented
-- Energy investment still substantial
-
-#### Universities as Engineer Factories
-- Specialization imperative
-- Professional training focus
-- Liberal arts decline
-- Energy investment: 5-7 years
-
-#### Citations Needed
-- [ ] Newton primary sources
-- [ ] Smith - Wealth of Nations
-- [ ] Taylor - Scientific Management
-- [ ] Goethe polymath sources
-- [ ] History of universities
-- [ ] Braverman - Labor and Monopoly Capital
-
----
-
-### Phase 4: Specialization Acceleration (1900-1990) [300 words]
-
-#### T-Shaped Professionals
-- Depth in one area
-- Breadth across domains
-- Still some cross-domain exposure
-
-#### Grade 10 as Peak Cognitive Biodiversity
-- Last point of broad exposure
-- Tracking and specialization begins
-- What gets lost afterward
-
-#### Educational Standardization
-- Testing regimes
-- Curriculum compression
-- Efficiency metrics
-
-#### Energy Investment Decline
-- 4-5 years typical
-- Increasing modularity
-- Knowledge as courses
-
-#### Citations Needed
-- [ ] Educational history 20th century
-- [ ] Tracking and specialization studies
-- [ ] Standardized testing literature
-- [ ] Freire - Pedagogy of the Oppressed
-- [ ] Giroux - critical pedagogy
-
----
-
-### Phase 5: Bologna Collapse (1999-present) [300 words]
-
-#### ECTS Credits as Knowledge Tokens
-- European Credit Transfer System
-- Knowledge as fungible units
-- Complete modularization
-- Mobility over depth
-
-#### The Modularization Acceleration
-- Mix and match courses
-- Learning outcomes frameworks
-- Competency-based education
-- Assessment metrics dominate
-
-#### Energy Investment Further Decline
-- 2-4 years (Bachelor + Master compressed)
-- Credit accumulation model
-- Transfer and recognition priorities
-
-#### Thermodynamic Implications
-- Lower energy investment
-- Higher entropy knowledge states
-- Institutional efficiency vs. wisdom cultivation
-- Approaching critical thresholds
-
-#### Citations Needed
-- [ ] Bologna Process official documents
-- [ ] ECTS system documentation
-- [ ] Critiques of Bologna (European scholars)
-- [ ] Modularization research
-- [ ] Competency-based education studies
-
----
-
-### Phase 6: Thermodynamic Zero (2020-present) [200 words]
-
-#### Micro-Credentials
-- 4-8 hour modules
-- Digital badges
-- Stackable credentials
-- Approaching zero energy investment
-
-#### TikTok University
-- 60-second expertise
-- Algorithm-curated learning
-- Continuous partial attention
-- Entertainment as education
-
-#### The Zero-Point Crisis
-- Can knowledge exist with zero investment?
-- Thermodynamic impossibility
-- What remains at zero?
-- Just-in-time learning fallacy
-
-#### AI as Inevitable Outcome
-- System optimized for extraction
-- Zero-friction knowledge transfer
-- Perfect endpoint of trajectory
-- Biology becomes inefficient
-
-#### Citations Needed
-- [ ] Micro-credential research and advocacy papers
-- [ ] Digital badge studies
-- [ ] Continuous learning industry reports
-- [ ] Critique of "learning agility"
-- [ ] Attention economy literature
-
----
-
-## Writing Notes
-
-### Key Arguments to Establish
-1. Progressive simplification is documented
-2. Energy investment declined systematically
-3. Each phase prepared for next
-4. Current state is thermodynamically unstable
-5. AI emergence was predictable outcome
-
-### Evidence Standards
-- Primary sources where possible
-- Multiple scholarly perspectives
-- Acknowledge contested interpretations
-- Show pattern across domains
-
-### Figures to Reference
-- Timeline visualization
-- Energy investment decline graph
-- Knowledge type taxonomy
-- Complexity reduction diagram
-
----
-*[Section to be written]*
+Zuboff, S. (2019). *The age of surveillance capitalism*. PublicAffairs.
