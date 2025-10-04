@@ -10,7 +10,18 @@
 \usepackage[authoryear,round]{natbib}
 \bibliographystyle{apalike}
 
-% Formatting
+% Formatting and figures
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage{subcaption}
+\usepackage[export]{adjustbox}
+\usepackage{caption}
+\usepackage{booktabs}
+\usepackage{longtable}
+\usepackage{amsmath}
+\graphicspath{{../figures/}{figures/}{./figures/}}
+
+% Hyperlinks
 \usepackage{hyperref}
 \hypersetup{
     colorlinks=true,
@@ -18,12 +29,6 @@
     citecolor=blue,
     urlcolor=blue,
 }
-
-% Tables and figures
-\usepackage{graphicx}
-\usepackage{booktabs}
-\usepackage{longtable}
-\usepackage{amsmath}
 
 \title{\Large\textbf{Cognitive Devolution: The Thermodynamic Collapse of Human Knowledge Systems}}
 \author{Kurt Octavian Cotoaga\\

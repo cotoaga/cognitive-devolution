@@ -18,10 +18,23 @@ From the `manuscript/` directory:
 - `output/` - Generated PDFs
 - `archive/` - Previous versions (original markdown)
 - `working-notes/` - Notes and drafts
-- `figures/` - Figure assets (to be added)
+- `figures/` - Figure assets (11 figures: 1a-1e + 6 analytical diagrams)
 
-## Word Count
-~11,500 words across 9 sections plus preface and abstract
+## Current Status
+**MILESTONE: Pre Figure 1** - Text complete (54-page PDF), visual assets prepared, ready for figure integration
+
+## Metrics
+- **Word Count**: ~25,000 words total
+  - Main body: ~23,500 words
+  - References: ~1,500 words
+- **Page Count**: 54 pages (compiled PDF)
+- **Sections**: 9 main sections plus preface and abstract
+- **Citations**: 73 unique references
+
+## Visual Assets
+11 figures prepared in `figures/` directory:
+- Figure 1 components: 1a.png, 1b.png, 1c.png, 1d.png, 1e.png
+- Analytical diagrams: convergent_validation, effective_cognitive_power, efficiency_collapse, knowledge_worker_paradox, resistance_collapse, sphere-to-vector
 
 ## Sections
 
