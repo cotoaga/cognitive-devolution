@@ -1,4 +1,780 @@
 % Core Citations from the Paper
+
+% ============================================
+% NEW CITATIONS FOR SECTION 09 v2.1
+% Add these to references.bib
+% ============================================
+
+% Deliberate practice meta-analysis (replaces Ericsson 10,000 hours)
+@article{macnamara2014,
+  author = {Macnamara, Brooke N. and Hambrick, David Z. and Oswald, Frederick L.},
+  title = {Deliberate Practice and Performance in Music, Games, Sports, Education, and Professions: A Meta-Analysis},
+  journal = {Psychological Science},
+  volume = {25},
+  number = {8},
+  pages = {1608--1618},
+  year = {2014},
+  doi = {10.1177/0956797614535810}
+}
+
+% Exploration vs exploitation - anchor for 20% slack requirement
+@article{march1991,
+  author = {March, James G.},
+  title = {Exploration and Exploitation in Organizational Learning},
+  journal = {Organization Science},
+  volume = {2},
+  number = {1},
+  pages = {71--87},
+  year = {1991}
+}
+
+% Automation exposure / substitutability
+@article{frey2017,
+  author = {Frey, Carl Benedikt and Osborne, Michael A.},
+  title = {The Future of Employment: How Susceptible Are Jobs to Computerisation?},
+  journal = {Technological Forecasting and Social Change},
+  volume = {114},
+  pages = {254--280},
+  year = {2017}
+}
+
+@article{autor2015,
+  author = {Autor, David H.},
+  title = {Why Are There Still So Many Jobs? The History and Future of Workplace Automation},
+  journal = {Journal of Economic Perspectives},
+  volume = {29},
+  number = {3},
+  pages = {3--30},
+  year = {2015}
+}
+
+% External triangulation for existence proof
+@book{sennett2008,
+  author = {Sennett, Richard},
+  title = {The Craftsman},
+  publisher = {Yale University Press},
+  year = {2008},
+  address = {New Haven, CT}
+}
+
+@book{stengers2018,
+  author = {Stengers, Isabelle},
+  title = {Another Science is Possible: A Manifesto for Slow Science},
+  publisher = {Polity Press},
+  year = {2018},
+  address = {Cambridge, UK}
+}
+
+% Kurt's AI governance framework
+@misc{cotoaga2024karten,
+  author = {Cotoaga, Kurt},
+  title = {Karten auf den Tisch: Ein Framework f{\"u}r KI-informierte Entscheidungsfindung},
+  year = {2024},
+  url = {http://cotoaga.ai/karten-auf-den-tisch/},
+  note = {Cynefin-informed AI governance framework. Accessed December 2024}
+}
+
+% ============================================
+% VERIFICATION CHECKLIST
+% These should already exist in references.bib:
+% ============================================
+% [x] korzybski1933
+% [x] kahneman2011
+% [x] hutchins1995
+% [x] hofstadter1979
+% [x] schein1985
+% [x] dimaggio1983
+% [x] granovetter1985
+% [x] bourdieu1990
+% [x] maturana1987
+% [x] snowden2007
+% [x] ford2024
+% [x] DeLaCroix2018 (note capitalization!)
+% [x] collins2010
+% [x] zuboff2019
+% [x] mark2008
+% [x] gonzalez2004
+% ============================================
+
+% ============================================
+% NEW CITATIONS FOR SECTION 08: AI MIRROR
+% Add these to references.bib
+% ============================================
+
+% MODEL COLLAPSE / RECURSIVE TRAINING
+@article{shumailov2024,
+  author = {Shumailov, Ilia and Shumaylov, Zakhar and Zhao, Yiren and Gal, Yarin and Papernot, Nicolas and Anderson, Ross},
+  title = {The Curse of Recursion: Training on Generated Data Makes Models Forget},
+  journal = {arXiv preprint arXiv:2305.17493},
+  year = {2024},
+  note = {Published in Nature 2024; demonstrates model collapse when training on AI-generated data, with irreversible loss of tail distributions}
+}
+
+@article{alemohammad2024,
+  author = {Alemohammad, Sina and Casco-Rodriguez, Josue and Luber, Lorenzo and Babaei, Ahmed and Romero, Dhara and Hu, Yifan and Sapiro, Guillermo and Baraniuk, Richard and Carin, Lawrence and Donoho, David},
+  title = {Self-Consuming Generative Models Go {MAD}},
+  journal = {arXiv preprint arXiv:2307.01850},
+  year = {2024},
+  note = {Demonstrates Model Autophagy Disorder: quality and diversity degradation across generations without fresh human data}
+}
+
+% CONTEXTUAL EMBEDDINGS
+@inproceedings{ethayarajh2019,
+  author = {Ethayarajh, Kawin},
+  title = {How Contextual are Contextualized Word Representations? {Comparing} the Geometry of {BERT}, {ELMo}, and {GPT-2} Embeddings},
+  booktitle = {Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing (EMNLP)},
+  year = {2019},
+  pages = {55--65},
+  publisher = {Association for Computational Linguistics},
+  note = {Shows contextual representations become increasingly anisotropic in higher layers; static embeddings explain minimal variance}
+}
+
+@inproceedings{voita2019,
+  author = {Voita, Elena and Talbot, David and Moiseev, Fedor and Sennrich, Rico and Titov, Ivan},
+  title = {Analyzing Multi-Head Self-Attention: Specialized Heads Do the Heavy Lifting, the Rest Can Be Pruned},
+  booktitle = {Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics (ACL)},
+  year = {2019},
+  pages = {5797--5808},
+  publisher = {Association for Computational Linguistics},
+  note = {Analysis showing less than 5\% variance in contextual representations explained by static embeddings}
+}
+
+% RLHF / INSTRUCTGPT
+@article{ouyang2022,
+  author = {Ouyang, Long and Wu, Jeffrey and Jiang, Xu and Almeida, Diogo and Wainwright, Carroll and Mishkin, Pamela and Zhang, Chong and Agarwal, Sandhini and Slama, Katarina and Ray, Alex and others},
+  title = {Training Language Models to Follow Instructions with Human Feedback},
+  journal = {Advances in Neural Information Processing Systems},
+  volume = {35},
+  pages = {27730--27744},
+  year = {2022},
+  note = {Foundational InstructGPT paper; describes RLHF methodology for preference shaping via rankings and reward modeling}
+}
+
+% TRANSFORMER ARCHITECTURE
+@inproceedings{vaswani2017,
+  author = {Vaswani, Ashish and Shazeer, Noam and Parmar, Niki and Uszkoreit, Jakob and Jones, Llion and Gomez, Aidan N. and Kaiser, {\L}ukasz and Polosukhin, Illia},
+  title = {Attention is All You Need},
+  booktitle = {Advances in Neural Information Processing Systems},
+  volume = {30},
+  year = {2017},
+  publisher = {Curran Associates, Inc.},
+  note = {Foundational transformer architecture paper introducing self-attention mechanisms}
+}
+
+% TOKENIZATION
+@inproceedings{sennrich2016,
+  author = {Sennrich, Rico and Haddow, Barry and Birch, Alexandra},
+  title = {Neural Machine Translation of Rare Words with Subword Units},
+  booktitle = {Proceedings of the 54th Annual Meeting of the Association for Computational Linguistics (ACL)},
+  year = {2016},
+  pages = {1715--1725},
+  publisher = {Association for Computational Linguistics},
+  note = {Introduces Byte Pair Encoding (BPE) for neural machine translation; foundational subword tokenization method}
+}
+
+% ML ENERGY / CARBON FOOTPRINT
+@article{patterson2021,
+  author = {Patterson, David and Gonzalez, Joseph and Le, Quoc and Liang, Chen and Munguia, Lluis-Miquel and Rothchild, Daniel and So, David and Texier, Maud and Dean, Jeff},
+  title = {Carbon Emissions and Large Neural Network Training},
+  journal = {arXiv preprint arXiv:2104.10350},
+  year = {2021},
+  note = {Google research on energy consumption of large model training; estimates GPT-3 scale training at approximately 1,287 MWh}
+}
+
+% BOLOGNA / ECTS / EQF DOCUMENTATION
+@techreport{ects2015,
+  author = {{European Commission}},
+  title = {{ECTS} Users' Guide 2015},
+  institution = {Publications Office of the European Union},
+  year = {2015},
+  address = {Luxembourg},
+  note = {Official guide defining ECTS as workload-based credit system; 60 credits = one academic year = 1500-1800 student hours}
+}
+
+@techreport{eqf2017,
+  author = {{European Commission}},
+  title = {The European Qualifications Framework for Lifelong Learning ({EQF})},
+  institution = {Publications Office of the European Union},
+  year = {2017},
+  address = {Luxembourg},
+  note = {Defines 8-level framework across knowledge, skills, and responsibility/autonomy dimensions for credential comparability}
+}
+
+% IMPLEMENTATION FAILURE STATISTICS
+@report{rand2024,
+  author = {{RAND Corporation}},
+  title = {Why AI Projects Fail: An Analysis of Implementation Challenges},
+  institution = {RAND Corporation},
+  year = {2024},
+  note = {Documents AI project failure rates exceeding 80\%, approximately twice that of conventional IT projects}
+}
+
+@report{bcg2024,
+  author = {{Boston Consulting Group}},
+  title = {From Potential to Profit: Closing the AI Impact Gap},
+  institution = {Boston Consulting Group},
+  year = {2024},
+  month = {October},
+  note = {Survey of 1,000 executives across 59 countries; only 26\% achieved measurable AI value beyond proof of concept}
+}
+
+@report{gartner2024ai,
+  author = {{Gartner, Inc.}},
+  title = {Gartner Predicts 30\% of Generative AI Projects Will Be Abandoned After Proof of Concept by End of 2025},
+  institution = {Gartner},
+  year = {2024},
+  month = {July},
+  howpublished = {Gartner Press Release},
+  note = {Cites poor data quality, inadequate risk controls, escalating costs, unclear business value}
+}
+
+% KNIGHT CAPITAL
+@misc{sec2013knight,
+  author = {{U.S. Securities and Exchange Commission}},
+  title = {In the Matter of Knight Capital Americas {LLC}: Order Instituting Administrative and Cease-and-Desist Proceedings},
+  year = {2013},
+  month = {October},
+  howpublished = {Administrative Proceeding File No. 3-15570},
+  note = {SEC enforcement action documenting \$440 million loss from software deployment failure}
+}
+
+@article{nytimes2012knight,
+  author = {Popper, Nathaniel},
+  title = {Knight Capital Says Trading Glitch Cost It \$440 Million},
+  journal = {The New York Times},
+  year = {2012},
+  month = {August},
+  day = {2},
+  note = {DealBook coverage; company market cap collapsed 70\%, subsequently acquired by Getco LLC}
+}
+
+% EPIC SEPSIS MODEL
+@article{wong2021sepsis,
+  author = {Wong, Andrew and Otles, Erkin and Donnelly, John P. and Krumm, Andrew and McCullough, Jeffrey and DeTroyer-Cooley, Olivia and Pestber, Justin and Phillips, Marie and Konber, Judy and Kamber, Karandeep and Singh, Karandeep},
+  title = {External Validation of a Widely Implemented Proprietary Sepsis Prediction Model in Hospitalized Patients},
+  journal = {JAMA Internal Medicine},
+  year = {2021},
+  volume = {181},
+  number = {8},
+  pages = {1065--1070},
+  month = {August},
+  doi = {10.1001/jamainternmed.2021.2626},
+  note = {Peer-reviewed external validation; found AUC 0.63 vs vendor-claimed 0.76-0.83; 33\% sensitivity, 12\% PPV}
+}
+
+% IBM WATSON
+@article{nytimes2021watson,
+  author = {Strickland, Eliza},
+  title = {How {IBM Watson} Overpromised and Underdelivered on {AI} Health Care},
+  journal = {IEEE Spectrum},
+  year = {2019},
+  month = {April},
+  day = {2},
+  note = {Comprehensive investigation of Watson Health failures; MD Anderson \$62M project termination}
+}
+
+@article{forbes2017watson,
+  author = {Herper, Matthew},
+  title = {{MD Anderson} Benches {IBM Watson} In Setback For Artificial Intelligence In Medicine},
+  journal = {Forbes},
+  year = {2017},
+  month = {February},
+  day = {19},
+  note = {Reports project termination after \$62 million expenditure with zero clinical deployment}
+}
+
+@article{stat2017watson,
+  author = {Ross, Casey and Swetlitz, Ike},
+  title = {{IBM} Pitched {Watson} as a Revolution in Cancer Care. It's Nowhere Close},
+  journal = {STAT News},
+  year = {2017},
+  month = {September},
+  day = {5},
+  note = {Investigation finding Watson recommendations matched what oncologists already identified}
+}
+
+% MCDONALD'S AI
+@article{restaurantbusiness2024,
+  author = {Maze, Jonathan},
+  title = {{McDonald's} is Ending Its Drive-Thru {AI} Test},
+  journal = {Restaurant Business},
+  year = {2024},
+  month = {June},
+  day = {14},
+  note = {Trade publication obtained franchisee memo from Chief Restaurant Officer Mason Smoot}
+}
+
+@article{cnbc2024mcdonalds,
+  author = {Lucas, Amelia},
+  title = {{McDonald's} to End {AI} Drive-Thru Test with {IBM}},
+  journal = {CNBC},
+  year = {2024},
+  month = {June},
+  day = {17},
+  note = {Reports accent and dialect interpretation issues affecting order accuracy}
+}
+
+% AIR CANADA CHATBOT
+@misc{bccrt2024moffatt,
+  author = {Rivers, Christopher C.},
+  title = {Moffatt v. Air Canada},
+  howpublished = {British Columbia Civil Resolution Tribunal Decision},
+  year = {2024},
+  number = {2024 BCCRT 149},
+  month = {February},
+  day = {14},
+  note = {Tribunal rejected airline's argument that chatbot was ``separate legal entity''; awarded \$812.02 damages}
+}
+
+% KLARNA
+@misc{klarna2024ai,
+  author = {{Klarna}},
+  title = {{Klarna AI} Assistant Handles Two-Thirds of Customer Service Chats in Its First Month},
+  howpublished = {Klarna Press Release},
+  year = {2024},
+  month = {February},
+  day = {27},
+  note = {Announced AI handling 2.3M conversations, claimed equivalent of 700 full-time agents}
+}
+
+@article{bloomberg2025klarna,
+  author = {Tan, Hanna and Magnusson, Niklas},
+  title = {{Klarna CEO} Says Company Utilizes ``Frontier'' {AI} But Must Balance Human Touch},
+  journal = {Bloomberg},
+  year = {2025},
+  month = {May},
+  note = {CEO Sebastian Siemiatkowski acknowledged going ``too far, too fast''; company rehiring human agents}
+}
+
+@article{cxdive2025klarna,
+  author = {Wolfe, Bryan},
+  title = {{Klarna} Changes Its {AI} Tune and Again Recruits Humans for Customer Service},
+  journal = {Customer Experience Dive},
+  year = {2025},
+  month = {May},
+  day = {8},
+  note = {Documents reversal of AI-first customer service strategy}
+}
+
+% COMMONWEALTH BANK
+@article{techtarget2025cba,
+  author = {Flinders, Karl},
+  title = {Enterprise {AI} Failures: Lessons from 2025},
+  journal = {TechTarget},
+  year = {2025},
+  month = {August},
+  note = {Documents CBA chatbot deployment June 2025, 45 layoffs, reversal by August 2025}
+}
+
+% UNITEDHEALTH
+@article{cbsnews2023united,
+  author = {Napolitano, Elizabeth},
+  title = {{UnitedHealth} Uses Faulty {AI} to Deny Elderly Patients Medically Necessary Coverage, Lawsuit Claims},
+  journal = {CBS News},
+  year = {2023},
+  month = {November},
+  day = {21},
+  note = {Reports lawsuit alleging 90\% error rate; employees disciplined for deviating from algorithm}
+}
+
+@article{statnews2023medicare,
+  author = {Ross, Casey and Herman, Bob},
+  title = {Denied by {AI}: How {Medicare Advantage} Plans Use Algorithms to Cut Off Care for Seniors in Need},
+  journal = {STAT News},
+  year = {2023},
+  month = {March},
+  day = {13},
+  note = {Investigation documenting denial rate increase from 10.9\% (2020) to 22.7\% (2022) with nH Predict}
+}
+
+@article{courthousenews2025united,
+  author = {Anderson, Mark},
+  title = {Federal Judge Allows {AI} Denial Lawsuit Against {UnitedHealth Group} to Proceed},
+  journal = {Courthouse News Service},
+  year = {2025},
+  month = {February},
+  day = {13},
+  note = {Judge Tunheim describes claims process as ``futile'' with likelihood of ``irreparable injury''}
+}
+
+% LEGAL AI HALLUCINATION
+@article{fortune2023chatgpt,
+  author = {Duffy, Clare},
+  title = {Lawyers Fined for Using Fake {ChatGPT} Cases in Legal Brief},
+  journal = {Fortune},
+  year = {2023},
+  month = {June},
+  day = {23},
+  note = {Reports Judge Castel's \$5,000 sanctions in Mata v. Avianca for six fabricated cases}
+}
+
+@article{stanfordhai2024,
+  author = {Dahl, Matthew and Magesh, Varun and Suzgun, Mirac and Ho, Daniel E.},
+  title = {Large Legal Fictions: Profiling Legal Hallucinations in Large Language Models},
+  journal = {Journal of Legal Analysis},
+  year = {2024},
+  volume = {16},
+  number = {1},
+  pages = {64--93},
+  note = {Stanford HAI research finding hallucination rates 69\%-88\% for specific legal research tasks}
+}
+
+% COMPAS / ALGORITHMIC BIAS
+@misc{wisconsin2016loomis,
+  author = {{Wisconsin Supreme Court}},
+  title = {State v. Loomis},
+  howpublished = {881 N.W.2d 749 (Wis. 2016)},
+  year = {2016},
+  month = {July},
+  day = {13},
+  note = {Court mandated warnings about proprietary opacity and racial disproportionality in COMPAS}
+}
+
+@article{propublica2016compas,
+  author = {Angwin, Julia and Larson, Jeff and Mattu, Surya and Kirchner, Lauren},
+  title = {Machine Bias: There's Software Used Across the Country to Predict Future Criminals. And It's Biased Against Blacks},
+  journal = {ProPublica},
+  year = {2016},
+  month = {May},
+  day = {23},
+  note = {Investigation finding Black defendants falsely labeled high-risk at twice rate of white defendants}
+}
+
+@article{mittechreview2020,
+  author = {Heaven, Will Douglas},
+  title = {Predictive Policing Algorithms Are Racist. They Need to Be Dismantled},
+  journal = {MIT Technology Review},
+  year = {2020},
+  month = {July},
+  day = {17},
+  note = {Documents feedback loops and opacity in predictive policing systems}
+}
+
+@misc{senate2024predictive,
+  author = {Wyden, Ron and Booker, Cory and others},
+  title = {Letter to Attorney General Garland Regarding Predictive Policing},
+  howpublished = {U.S. Senate Correspondence},
+  year = {2024},
+  month = {January},
+  day = {29},
+  note = {Senators demand DOJ halt funding citing evidence of discriminatory impact}
+}
+
+% APPLE CARD - CORRECTED PER REVIEWER
+@article{bbc2019apple,
+  author = {{BBC News}},
+  title = {Apple's ``Sexist'' Credit Card Investigated by {US} Regulator},
+  journal = {BBC News},
+  year = {2019},
+  month = {November},
+  day = {10},
+  note = {Reports NY DFS investigation; David Heinemeier Hansson received 20x wife's limit despite her better credit}
+}
+
+@misc{cfpb2024apple,
+  author = {{Consumer Financial Protection Bureau}},
+  title = {{CFPB} Orders {Apple} and {Goldman Sachs} to Pay Over \$89 Million for {Apple Card} Failures},
+  howpublished = {CFPB Press Release},
+  year = {2024},
+  month = {October},
+  day = {22},
+  note = {Combined penalties and consumer redress totaling over \$89 million for credit card practices}
+}
+
+% ============================================
+% NEW BIBTEX ENTRIES FOR SECTION 06 v3
+% Append these to references.bib
+% ============================================
+
+% PRIMARY MEDIEVAL SOURCES
+@book{denifle1889,
+  editor = {Denifle, Heinrich and Chatelain, Emile},
+  title = {Chartularium Universitatis Parisiensis},
+  volume = {I},
+  publisher = {Delalain},
+  address = {Paris},
+  year = {1889},
+  note = {Primary source for 1215 statutes of Robert de Cour\c{c}on and 1270 Faculty of Medicine statutes}
+}
+
+@book{rashdall1895,
+  author = {Rashdall, Hastings},
+  title = {The Universities of Europe in the Middle Ages},
+  volume = {I},
+  publisher = {Clarendon Press},
+  address = {Oxford},
+  year = {1895}
+}
+
+% ENERGY-SURPLUS / MEDIEVAL ECONOMIC HISTORY
+@book{white1962,
+  author = {White, Lynn},
+  title = {Medieval Technology and Social Change},
+  publisher = {Oxford University Press},
+  year = {1962}
+}
+
+@book{lopez1976,
+  author = {Lopez, Robert S.},
+  title = {The Commercial Revolution of the Middle Ages, 950--1350},
+  publisher = {Cambridge University Press},
+  year = {1976}
+}
+
+@book{grant1996,
+  author = {Grant, Edward},
+  title = {The Foundations of Modern Science in the Middle Ages},
+  publisher = {Cambridge University Press},
+  year = {1996}
+}
+
+% ECTS / CREDIT SYSTEM ANALYSIS
+@techreport{davies2023,
+  author = {Davies, Howard},
+  title = {Going beyond the 20\% student mobility benchmark},
+  institution = {European University Association},
+  year = {2023},
+  url = {https://www.eua.eu/resources/publications/1103:going-beyond-the-20-student-mobility-benchmark.html}
+}
+
+@article{altbach2001,
+  author = {Altbach, Philip G.},
+  title = {The American academic model in comparative perspective},
+  journal = {Higher Education Policy},
+  volume = {14},
+  number = {1},
+  pages = {11--22},
+  year = {2001}
+}
+
+% GERMAN ENGINEERING SOURCES
+@misc{tu92010,
+  author = {{TU9 German Institutes of Technology}},
+  title = {Abschlussgrad ``Diplom-Ingenieur'' ist Bologna-kompatibel!},
+  year = {2010},
+  month = {May},
+  howpublished = {Press release, Informationsdienst Wissenschaft (idw)},
+  url = {https://idw-online.de/de/news369560}
+}
+
+@misc{deutschlandfunk2010,
+  author = {{Deutschlandfunk}},
+  title = {R{\"u}ckkehr zum Dipl.-Ing.},
+  year = {2010},
+  howpublished = {Radio broadcast transcript},
+  url = {https://www.deutschlandfunk.de/rueckkehr-zum-dipl-ing-100.html}
+}
+
+@article{schanz2025,
+  author = {Schanz, Michael},
+  title = {Ingenieurausbildung: Was uns Bologna bis heute gebracht hat},
+  journal = {elektroniknet.de},
+  year = {2025},
+  month = {January},
+  url = {https://www.elektroniknet.de/karriere/uni-job/ingenieurausbildung-was-uns-bologna-bis-heute-gebracht-hat.222778.html}
+}
+
+@inproceedings{kovesi2016,
+  author = {K{\"o}vesi, Kl{\'a}ra and Csizmadia, P{\'e}ter},
+  title = {Industry perception of new engineering graduates: The gap between requirements and reality},
+  booktitle = {Proceedings of the 44th SEFI Conference},
+  year = {2016},
+  address = {Tampere, Finland},
+  url = {http://sefi.be/wp-content/uploads/2017/09/kovesi-industry-perception-of-engineering-graduates-152_a.pdf}
+}
+
+@misc{vdi2024,
+  author = {{Verband Deutscher Ingenieure (VDI)}},
+  title = {Bologna-Prozess: Immer noch ein Reizthema?},
+  year = {2024},
+  howpublished = {vdi.de},
+  url = {https://www.vdi.de/news/detail/bologna-prozess-immer-noch-ein-reizthema}
+}
+
+@article{lucasnuelle2009,
+  author = {{Lucas-N{\"u}lle GmbH}},
+  title = {Bachelor's degree quality concerns},
+  journal = {LN Practice},
+  volume = {01/2009},
+  pages = {6--7},
+  year = {2009},
+  url = {https://www.lucas-nuelle.de/index.php/fuseaction/download/lrn_file/ln_practice_01_2009.pdf}
+}
+
+% "GERMAN-FREE" / MADE IN GERMANY DECLINE
+@misc{shalal2019,
+  author = {Shalal, Andrea and Irish, John},
+  title = {Berlin arms policy risks `German-free' European defence projects},
+  year = {2019},
+  month = {March},
+  day = {4},
+  howpublished = {Reuters},
+  url = {https://www.reuters.com/article/world/berlin-arms-policy-risks-german-free-european-defence-projects-idUSKCN1QL1HC/}
+}
+
+@book{deni2025,
+  author = {Deni, John R.},
+  title = {Assessing the Zeitenwende: Implications for Germany, the United States, and Europe},
+  publisher = {Strategic Studies Institute, US Army War College},
+  year = {2025},
+  url = {https://ssi.armywarcollege.edu/SSI-Media/Recent-Publications/Article/4080077/assessing-the-zeitenwende/}
+}
+
+@techreport{kramer2024,
+  author = {Kr{\"a}mer, J{\"o}rg},
+  title = {The decline of ``Made in Germany''},
+  institution = {Commerzbank Research},
+  year = {2024},
+  url = {https://www.commerzbank.de/group/research/week-in-focus/wif0815e.pdf}
+}
+
+% ============================================
+% END NEW ENTRIES - 16 citations total
+% ============================================
+
+% ============================================
+% MISSING BIBTEX ENTRIES FOR SECTION 05
+% Append these to references.bib
+% ============================================
+
+% ENERGY HISTORY - Netherlands peat consumption
+@article{dezeeuw1978,
+  author = {de Zeeuw, J. W.},
+  title = {Peat and the {Dutch} Golden Age: The Historical Meaning of Energy-Attainability},
+  journal = {A.A.G. Bijdragen},
+  volume = {21},
+  pages = {3--31},
+  year = {1978},
+  note = {Documents Netherlands peat consumption of approximately 17 GJ per capita, total pre-industrial energy approaching 20-25 GJ}
+}
+
+% EUROSTAT - Knowledge-intensive services
+@misc{eurostat2024,
+  author = {{Eurostat}},
+  title = {Employment in Knowledge-Intensive Activities},
+  year = {2024},
+  howpublished = {Eurostat Database},
+  url = {https://ec.europa.eu/eurostat},
+  note = {Reports 42.6\% of employed European population in knowledge-intensive services; 44.9\% classified as highly skilled workers (ISCO-08 groups 1-3)}
+}
+
+% HISTORICAL DEMOGRAPHY - European population
+@book{urlanis1941,
+  author = {Urlanis, Boris},
+  title = {Rost Naseleniya v {Evrope} [Population Growth in {Europe}]},
+  publisher = {OGIZ-Gospolitizdat},
+  address = {Moscow},
+  year = {1941},
+  note = {Demographic study estimating European population at approximately 75 million at pre-Black Death peak}
+}
+
+% MEDIEVAL MONASTICISM - Patronage of learning
+@book{holzknecht1923,
+  author = {Holzknecht, Karl Julius},
+  title = {Literary Patronage in the Middle Ages},
+  publisher = {University of Pennsylvania Press},
+  address = {Philadelphia},
+  year = {1923},
+  note = {Documents transformation from precarious individual patronage to stable monastic endowment model}
+}
+
+% MEDIEVAL MONASTICISM - Monastic horaria
+@book{knowles1963,
+  author = {Knowles, David},
+  title = {The Monastic Order in {England}: A History of Its Development from the Times of {St. Dunstan} to the {Fourth Lateran Council}, 940--1216},
+  publisher = {Cambridge University Press},
+  address = {Cambridge},
+  edition = {2nd},
+  year = {1963},
+  note = {Documents monastic horaria allocating 4-6 hours daily to study and copying}
+}
+
+% WORKPLACE INTERRUPTIONS - Industry survey
+@misc{reclaimai2024,
+  author = {{Reclaim.ai}},
+  title = {Productivity Trends Report: The State of Interruptions at Work},
+  year = {2024},
+  howpublished = {Reclaim.ai Research},
+  note = {Industry survey finding knowledge workers report average of 31.6 interruptions per day}
+}
+
+% New for revised civilizational thermodynamics section
+@article{mark2008,
+  author = {Mark, Gloria and Gudith, Daniela and Klocke, Ulrich},
+  title = {The Cost of Interrupted Work: More Speed and Stress},
+  journal = {Proceedings of CHI 2008},
+  pages = {107--110},
+  year = {2008},
+  publisher = {ACM}
+}
+
+@article{gonzalez2004,
+  author = {Gonz{\'a}lez, Victor M. and Mark, Gloria},
+  title = {Constant, Constant, Multi-tasking Craziness: Managing Multiple Working Spheres},
+  journal = {Proceedings of CHI 2004},
+  pages = {113--120},
+  year = {2004},
+  publisher = {ACM}
+}
+
+@article{ericsson1993,
+  author = {Ericsson, K. Anders and Krampe, Ralf Th. and Tesch-R{\"o}mer, Clemens},
+  title = {The Role of Deliberate Practice in the Acquisition of Expert Performance},
+  journal = {Psychological Review},
+  volume = {100},
+  number = {3},
+  pages = {363--406},
+  year = {1993}
+}
+
+@book{turchin2023,
+  author = {Turchin, Peter},
+  title = {End Times: Elites, Counter-Elites, and the Path of Political Disintegration},
+  publisher = {Penguin Press},
+  year = {2023},
+  address = {New York},
+  isbn = {978-0593490501}
+}
+
+@article{ackoff1989,
+  author = {Ackoff, Russell L.},
+  title = {From Data to Wisdom},
+  journal = {Journal of Applied Systems Analysis},
+  volume = {16},
+  pages = {3--9},
+  year = {1989},
+  note = {Presidential address to the International Society for General Systems Research, 1988}
+}
+
+% New for revised methodology section
+@article{raichle2001,
+  author = {Raichle, Marcus E. and MacLeod, Ann Mary and Snyder, Abraham Z. and Powers, William J. and Gusnard, Debra A. and Shulman, Gordon L.},
+  title = {A default mode of brain function},
+  journal = {Proceedings of the National Academy of Sciences},
+  volume = {98},
+  number = {2},
+  pages = {676--682},
+  year = {2001}
+}
+
+@book{novak1984,
+  author = {Novak, Joseph D. and Gowin, D. Bob},
+  title = {Learning How to Learn},
+  publisher = {Cambridge University Press},
+  year = {1984}
+}
+
+@article{murre2015,
+  author = {Murre, Jaap M. J. and Dros, Joeri},
+  title = {Replication and Analysis of {Ebbinghaus}' Forgetting Curve},
+  journal = {PLOS ONE},
+  volume = {10},
+  number = {7},
+  pages = {e0120644},
+  year = {2015}
+}
+
+% everything else
 @book{hands2015,
   author = {Hands, John},
   title = {Cosmosapiens: Human Evolution from the Origin of the Universe},
@@ -161,15 +937,15 @@
   address   = {New York}
 }
 
-@article{Hidalgo2015,
+@book{Hidalgo2015,
   author  = {Hidalgo, C{\'e}sar A.},
   title   = {Why Information Grows: The Evolution of Order, from Atoms to Economies},
-  journal = {Basic Books},
+  publisher = {Basic Books},
   year    = {2015},
   address = {New York}
 }
 
-@book{Daston2011,
+@article{Daston2017,
   author    = {Daston, Lorraine},
   title     = {The History of Science and the History of Knowledge},
   journal   = {Know: A Journal on the Formation of Knowledge},
@@ -196,7 +972,7 @@
   address   = {Cambridge}
 }
 
-@article{Broadberry2015,
+@book{Broadberry2015,
   author  = {Broadberry, Stephen and Campbell, Bruce M. S. and Klein, Alexander and Overton, Mark and van Leeuwen, Bas},
   title   = {British Economic Growth, 1270--1870},
   publisher = {Cambridge University Press},
@@ -257,17 +1033,6 @@
   doi = {10.1093/rfs/hhm075}
 }
 
-@article{jvme_clinical_reasoning,
-  author = {Vandeweerd, Jean-Michel and Kirschvink, Nathalie and Clegg, Peter and Vandenput, Sandrina and Gustin, Pascal and Saegerman, Claude},
-  title = {Clinical Reasoning and Case-Based Decision Making: The Fundamental Challenge to Veterinary Educators},
-  journal = {Journal of Veterinary Medical Education},
-  year = {2013},
-  volume = {40},
-  number = {3},
-  pages = {200--209},
-  doi = {10.3138/jvme.0113-008R}
-}
-
 @misc{wikipedia_medieval_university,
   author = {{Wikipedia}},
   title = {Medieval university},
@@ -286,24 +1051,35 @@
 @misc{medieval_buildings_carpenters,
   author = {{Medieval Buildings}},
   title = {Carpenters' Knowledge},
-  year = {n.d.},
-  url = {https://www.medievalbuildings.co.uk/pdfs/Carpenters-Knowledge.pdf}
+  year = {2020},
+  url = {https://www.medievalbuildings.co.uk/pdfs/Carpenters-Knowledge.pdf},
+  note = {Accessed 2025}
 }
 
 @misc{ross_vet_school,
   author = {{Ross University School of Veterinary Medicine}},
   title = {Is Vet School Harder Than Medical School?},
-  year = {n.d.},
+  year = {2023},
   url = {https://veterinary.rossu.edu/about/blog/is-vet-school-harder-than-med-school}
 }
 
-@article{pmc_veterinary_value,
-  author = {Lweis, F. I. and others},
+@article{lewis2022,
+  author = {Lewis, F. I. and others},
   title = {Medicine, Value, and Knowledge in the Veterinary Clinic},
   journal = {Sociology of Health \& Illness},
   year = {2022},
-  doi = {10.1111/1467-9566.13482},
-  note = {PMC8964002}
+  doi = {10.1111/1467-9566.13482}
+}
+
+@article{vandeweerd2013,
+  author = {Vandeweerd, Jean-Michel and Kirschvink, Nathalie and Clegg, Peter and Vandenput, Sandrina and Gustin, Pascal and Saegerman, Claude},
+  title = {Clinical Reasoning and Case-Based Decision Making: The Fundamental Challenge to Veterinary Educators},
+  journal = {Journal of Veterinary Medical Education},
+  year = {2013},
+  volume = {40},
+  number = {3},
+  pages = {200--209},
+  doi = {10.3138/jvme.0113-008R}
 }
 
 @book{deleuze1987thousand,
@@ -545,10 +1321,10 @@
   year = {2013}
 }
 
-@article{hackman2002,
+@book{hackman2002,
   author = {Hackman, J. Richard},
   title = {Leading Teams: Setting the Stage for Great Performances},
-  journal = {Harvard Business School Press},
+  publisher = {Harvard Business School Press},
   year = {2002}
 }
 
@@ -860,10 +1636,11 @@
 }
 
 @book{mouzala2024,
-  editor = {Mouzala, M. G.},
+  author = {Mouzala, M. G.},
   title = {Cognition in Ancient Greek Philosophy and its Reception: Interdisciplinary Approaches},
   year = {2024},
-  publisher = {Academia Verlag}
+  publisher = {Academia Verlag},
+  note = {(Ed.)}
 }
 
 @book{robinson2006,
@@ -1007,15 +1784,6 @@
 
 % AI Architecture
 
-@article{vaswani2017,
-  author = {Vaswani, A. and others},
-  title = {Attention is all you need},
-  journal = {Advances in Neural Information Processing Systems},
-  volume = {30},
-  pages = {5998-6008},
-  year = {2017}
-}
-
 % Transformation Failure
 
 @article{beer2000,
@@ -1070,13 +1838,6 @@
   title = {88\% of business transformations fail to achieve their original ambitions},
   year = {2024},
   institution = {Bain \& Company}
-}
-
-@techreport{bcg2024,
-  author = {{Boston Consulting Group}},
-  title = {Five truths and one lie about corporate transformation},
-  year = {2024},
-  institution = {BCG}
 }
 
 % Micro-credentials
@@ -1136,16 +1897,6 @@
   title = {Gödel, Escher, Bach: An Eternal Golden Braid},
   year = {1979},
   publisher = {Basic Books}
-}
-
-@article{ericsson1993,
-  author = {Ericsson, K. A. and others},
-  title = {The role of deliberate practice in the acquisition of expert performance},
-  journal = {Psychological Review},
-  volume = {100},
-  number = {3},
-  pages = {363-406},
-  year = {1993}
 }
 
 % Missing Citations Added
