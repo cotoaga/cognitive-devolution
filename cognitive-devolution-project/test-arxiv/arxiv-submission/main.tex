@@ -1,0 +1,58 @@
+\documentclass[12pt,a4paper]{article}
+
+% Essential packages
+\usepackage[utf8]{inputenc}
+\usepackage[margin=1in]{geometry}
+\usepackage{setspace}
+\onehalfspacing
+
+% Bibliography
+\usepackage[authoryear,round]{natbib}
+\bibliographystyle{plainnat}
+
+% Formatting and figures
+\usepackage{graphicx}
+\usepackage{tikz}
+\usepackage{float}
+\usepackage{subcaption}
+\usepackage[export]{adjustbox}
+\usepackage{caption}
+\usepackage{booktabs}
+\usepackage{longtable}
+\usepackage{amsmath}
+\graphicspath{{figures/}{./figures/}}
+
+% Hyperlinks
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=black,
+    citecolor=blue,
+    urlcolor=blue,
+}
+
+\title{\Large\textbf{Cognitive Devolution: The Thermodynamic Collapse of Human Knowledge Systems}}
+\author{Kurt Octavian Cotoaga\\
+\small cotoaga.net\\
+\small \href{mailto:kurt@cotoaga.net}{kurt@cotoaga.net}}
+\date{October 2025}
+
+\begin{document}
+\maketitle
+
+% Include all sections
+\input{sections/00-abstract}
+\input{sections/01-preface}
+\input{sections/02-introduction}
+\input{sections/03-literature}
+\input{sections/04-methodology}
+\input{sections/05-civilizational-thermodynamics.tex}
+\input{sections/06-historical}
+\input{sections/07-contemporary}
+\input{sections/08-ai-mirror}
+\input{sections/09-reconstruction}
+\input{sections/10-implications}
+\input{sections/11-conclusion}
+
+\bibliography{bibliography/references}
+\end{document}
